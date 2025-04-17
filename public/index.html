@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="dark">
 
@@ -411,8 +412,8 @@
                     embedLinkContainer.innerHTML = `
                          <p class="text-xs text-text-muted mb-2">Your embed page:</p>
                          <div class="flex items-center justify-between w-full bg-black/20 p-2 rounded-md text-sm">
-                            <a href="${embedUrl}" target="_blank" class="text-blue-400 hover:text-blue-300 truncate mr-2 underline" id="generatedLink">${embedUrl}</a>
-                             <button onclick="copyToClipboard('${embedUrl}')" class="p-1.5 bg-primary/20 rounded-md hover:bg-primary/40 transition-colors">
+                            <a href="${embedUrl}" target="_blank" class="text-blue-400 hover:text-blue-300 truncate mr-2 underline" id="generatedLink">https://embeders.onrender.com${embedUrl}</a>
+                             <button onclick="copyToClipboard('https://embeders.onrender.com${embedUrl}')" class="p-1.5 bg-primary/20 rounded-md hover:bg-primary/40 transition-colors">
                                  <i data-lucide="copy" class="w-4 h-4 text-primary"></i>
                              </button>
                          </div>`;
